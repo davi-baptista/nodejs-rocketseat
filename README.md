@@ -59,17 +59,41 @@ npm run dev
 
 Você pode acessar a API hospedada no Render aqui:
 
-👉 [https://nodejs-rocketseat-3815.onrender.com/](https://nodejs-rocketseat-38i5.onrender.com/)
-
+👉 [https://nodejs-rocketseat-38i5.onrender.com/](https://nodejs-rocketseat-38i5.onrender.com/)
 ---
 
-## 🧠 Aprendizados
+## 📨 Rotas da API
 
-- Como criar uma API REST do zero com Node.js
-- Utilização do Fastify como framework leve e performático
-- Manipulação de banco de dados com PostgreSQL
-- Deploy de aplicações (backend + banco) na nuvem
+A API expõe as seguintes rotas:
 
+### 📥 Criar um novo vídeo
+- **POST** `/videos`
+- Body (JSON):
+  ```json
+  {
+    "title": "Título do vídeo",
+    "description": "Descrição do vídeo",
+    "duration": 120
+  }
+  ```
+
+### 📤 Listar todos os vídeos
+- **GET** `/videos`
+
+### ✏️ Atualizar um vídeo
+- **PUT** `/videos/:id`
+- Body (JSON):
+  ```json
+  {
+    "title": "Novo título",
+    "description": "Nova descrição",
+    "duration": 150
+  }
+  ```
+
+### 🗑️ Deletar um vídeo
+- **DELETE** `/videos/:id`
+  
 ---
 
 ## 🧭 Roadmap de Estudos Recomendado
@@ -93,4 +117,4 @@ Após a criação da API REST com Fastify e Postgres, o próximo passo é contin
 
 A imagem do mapa foi criada por mim para representar visualmente a ordem dos tópicos abordados no curso da Rocketseat.
 
-Curso completo: [https://www.youtube.com/watch?v=hHM-hr9q4mo](https://www.youtube.com/watch?v=hHM-hr9q4mo)
+Aula completa: [https://www.youtube.com/watch?v=hHM-hr9q4mo](https://www.youtube.com/watch?v=hHM-hr9q4mo)
