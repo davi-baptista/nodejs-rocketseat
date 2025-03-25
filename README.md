@@ -59,7 +59,7 @@ npm run dev
 
 Você pode acessar a API hospedada no Render aqui:
 
-👉 [https://nodejs-rocketseat-3815.onrender.com/](https://nodejs-rocketseat-3815.onrender.com/)
+👉 [https://nodejs-rocketseat-3815.onrender.com/](https://nodejs-rocketseat-38i5.onrender.com/)
 
 ---
 
@@ -69,6 +69,23 @@ Você pode acessar a API hospedada no Render aqui:
 - Utilização do Fastify como framework leve e performático
 - Manipulação de banco de dados com PostgreSQL
 - Deploy de aplicações (backend + banco) na nuvem
+
+---
+
+## 🧭 Roadmap de Estudos Recomendado
+
+Após a criação da API REST com Fastify e Postgres, o próximo passo é continuar evoluindo seus conhecimentos com os tópicos abaixo:
+
+- ✅ **APIs Nativas (FileSystem, Stream, Crypto)** 
+- ✅ **TypeScript**
+- ✅ **Autenticação JWT**
+- ✅ **Princípios SOLID**
+- ✅ **SQL (ORM – Prisma)**
+- ✅ **Docker**
+- ✅ **Frameworks (Fastify / NestJS)**
+- ✅ **Testes automatizados (Jest / Vitest)**
+- ✅ **Arquitetura de software**
+- ✅ **Deploy & CI/CD**
 
 ---
 
